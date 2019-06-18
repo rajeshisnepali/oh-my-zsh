@@ -15,6 +15,7 @@ __Disclaimer:__ _Oh My Zsh works best on macOS and Linux._
 * Unix-like operating system (macOS or Linux)
 * `curl` or `wget` should be installed
 * `git` should be installed
+* But don't worry. This script will install `curl`, `wget` & `git` if not installed.
 
 ### Basic Installation
 
