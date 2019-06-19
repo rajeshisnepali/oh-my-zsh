@@ -1,6 +1,7 @@
 #!/bin/bash
 # colors
 YELLOW='\e[43m'
+LRED='\e[101m'
 NC='\033[0m' # No Color
 
 getOSArchitecture() {
@@ -31,6 +32,8 @@ installZSH() {
 
     # Make it your default shell
     sudo chsh -s $(which zsh)
+
+    echo -e "${LRED}Press Ctrl+D to setup zsh-autosuggestions.${NC}"
 }
 
 installAutoSuggestions() {
