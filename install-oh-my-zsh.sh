@@ -32,8 +32,6 @@ installZSH() {
 
     # Make it your default shell
     sudo chsh -s $(which zsh)
-
-    echo -e "${LRED}Press Ctrl+D to setup zsh-autosuggestions.${NC}"
 }
 
 installAutoSuggestions() {
