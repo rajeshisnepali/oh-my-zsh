@@ -43,7 +43,7 @@ installAutoSuggestions() {
 
 # steps
 getOSArchitecture
-pre_tools='git curl wget'
+pre_tools='git'
 installTools $pre_tools
 installZSH
 installAutoSuggestions
