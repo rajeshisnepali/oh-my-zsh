@@ -14,8 +14,7 @@ __Disclaimer:__ _Oh My Zsh works best on macOS and Linux._
 
 * Unix-like operating system (macOS or Linux)
 * `curl` or `wget` should be installed
-* `git` should be installed
-* But don't worry. This script will install `curl`, `wget` & `git` if not installed.
+* This script will install `git` if not installed.
 
 ### Basic Installation
 
@@ -35,7 +34,9 @@ sh -c "$(wget -O- https://raw.githubusercontent.com/rajeshisnepali/oh-my-zsh/mas
 
 ### Enabling zsh-autosuggestions Plugin
 ```shell
-  zsh-autosuggestions has been added successfully.  
+  After running the script, see if Shell changed to zsh. 
+  Then Press Ctrl+D to setup zsh-autosuggestions.
+ 
   For changes, you must logout and login back.
 ````
 
