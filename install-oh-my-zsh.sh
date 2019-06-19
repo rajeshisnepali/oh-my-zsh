@@ -6,7 +6,7 @@ NC='\033[0m' # No Color
 getOSArchitecture() {
     arch=$(awk -F= '/^ID_LIKE/{print $2}' /etc/os-release)
 
-    if [ "$arch" == "debian" ];
+    if [ "$arch" = "debian" ];
     then
         pkg='apt-get'
     else
