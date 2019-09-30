@@ -35,7 +35,7 @@ sh -c "$(wget -O- https://raw.githubusercontent.com/rajeshisnepali/oh-my-zsh/mas
 ### Enabling zsh-autosuggestions Plugin
 ```shell
   After running the script, see if Shell changed to zsh. 
-  Then Press Ctrl+D to setup zsh-autosuggestions.
+  Then type **exit** to setup zsh-autosuggestions.
  
   For changes, you must logout and login back.
 ````
